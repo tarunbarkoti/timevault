@@ -23,24 +23,24 @@ Optional (Planned/Future):
 
 ## Tech Stack
 
--Python 3.x
--Flask (core framework)
--Jinja2 (templating engine)
--WTForms (form handling and validation)
--SQLAlchemy (ORM for DB interaction)
--Flask-Login (user session management)
--Bootstrap 5 (UI/UX)
+- Python 3.x
+- Flask (core framework)
+- Jinja2 (templating engine)
+- WTForms (form handling and validation)
+- SQLAlchemy (ORM for DB interaction)
+- Flask-Login (user session management)
+- Bootstrap 5 (UI/UX)
 
 ---
 
 ## Features
 
--Time-based release mechanism for vault entries
--Admin dashboard for user/content management
--REST API endpoints
--Role-based access control
--User profile management
--Unit tests and CI integration
+- Time-based release mechanism for vault entries
+- Admin dashboard for user/content management
+- REST API endpoints
+- Role-based access control
+- User profile management
+- Unit tests and CI integration
 
 ---
 
