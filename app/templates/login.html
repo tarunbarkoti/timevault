@@ -1,0 +1,23 @@
+{% extends "base.html" %}
+{% block content %}
+  <h2>Login</h2>
+
+  {% with messages = get_flashed_messages() %}
+    {% if messages %}
+      <ul style="color: red;">
+        {% for message in messages %}
+          <li>{{ message }}</li>
+        {% endfor %}
+      </ul>
+    {% endif %}
+  {% endwith %}
+
+  <form method="POST">
+    {{ form.hidden_tag() }}
+    {{ form.email.label }} {{ form.email() }}<br>
+    {{ form.password.label }} {{ form.password() }}<br>
+    {{ form.submit() }}
+  </form>
+
+  <a href="{{ url_for('auth.register') }}">Don't have an account? Register</a>
+{% endblock %}
