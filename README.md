@@ -21,32 +21,6 @@ Optional (Planned/Future):
 
 ---
 
-## Project Structure
-
-TimeVault/
-│
-├── app/
-│ ├── init.py # App factory and config setup
-│ ├── routes.py # Route handlers
-│ ├── models.py # ORM models (SQLAlchemy)
-│ ├── forms.py # WTForm definitions
-│ ├── templates/ # Jinja2 templates
-│ │ ├── base.html
-│ │ ├── index.html
-│ │ ├── login.html
-│ │ ├── register.html
-│ │ └── dashboard.html
-│ └── static/ # Static assets
-│ ├── css/
-│ │ └── styles.css
-│ └── js/
-│
-├── config.py # Configuration settings
-├── run.py # App entry point
-└── requirements.txt # Python dependencies
-
----
-
 ## Tech Stack
 
 -Python 3.x
